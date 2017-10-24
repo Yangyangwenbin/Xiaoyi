@@ -26,6 +26,7 @@ public class GoodsDeta extends AppCompatActivity {
     }
     private  void getInfo(){
 
+
     }
 
     private void initView() {
