@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.dellll.xiaoyi.Login.Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#FF5000"
+
+        >
+        <ImageView
+            android:id="@+id/zhucefanhui"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@mipmap/ic_action_back"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户注册"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/reg_username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@mipmap/ic_edit_username"
+        android:hint="请输入账号"/>
+    <EditText
+        android:id="@+id/reg_pass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@mipmap/ic_edit_password"
+        android:hint="请输入密码"/>
+    <EditText
+        android:id="@+id/reg_passtrue"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@mipmap/ic_edit_password"
+        android:hint="请再次输入密码"/>
+    <EditText
+        android:id="@+id/reg_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@mipmap/ic_edit_email"
+        android:hint="请输入邮箱地址"/>
+    <Button
+        android:id="@+id/reg_reg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="注册"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:background="#FF5001"/>
+
+</LinearLayout>
